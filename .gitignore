@@ -1,0 +1,30 @@
+# Python / Virtual Environment
+venv/
+backend/venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Node / Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# Backend Data / Uploads / Artifacts
+backend/data/
+backend/sample_data/sample_drone_flight.mp4
+*.ply
+*.obj
+*.gltf
+*.glb
+*.bin
+*.db
+*.sqlite
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
