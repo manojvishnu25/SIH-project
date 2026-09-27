@@ -1,3 +1,8 @@
+# Environment Variables
+.env
+*.env
+!.env.example
+
 # Python / Virtual Environment
 venv/
 backend/venv/

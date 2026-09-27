@@ -9,7 +9,7 @@ import GISPanel from './components/GISPanel';
 import ObjectInspector from './components/ObjectInspector';
 import UploadModal from './components/UploadModal';
 
-const API_BASE = 'http://localhost:8000/api';
+const API_BASE = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000/api';
 
 export default function App() {
   const [activeJob, setActiveJob] = useState(null);
